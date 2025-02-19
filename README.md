@@ -77,8 +77,8 @@ Check out what to do next in the "[Getting Started Guide](./docs/tutorials/01-ge
 
 <!-- x-release-please-start-version -->
 
-1.  Install [TPM](https://github.com/tmux-plugins/tpm)
-1.  Add the Catppuccin plugin:
+1. Install [TPM](https://github.com/tmux-plugins/tpm)
+1. Add the Catppuccin plugin:
 
     ```bash
     set -g @plugin 'catppuccin/tmux#v2.1.2' # See https://github.com/catppuccin/tmux/tags for additional tags
@@ -86,10 +86,10 @@ Check out what to do next in the "[Getting Started Guide](./docs/tutorials/01-ge
     set -g @plugin 'tmux-plugins/tpm'
     ```
 
-1.  (Optional) Set your preferred flavor, it defaults to `"mocha"`:
+1. (Optional) Set your preferred flavor, it defaults to `"black"`:
 
         ```bash
-        set -g @catppuccin_flavor 'mocha' # latte, frappe, macchiato or mocha
+        set -g @catppuccin_flavor 'mocha' # latte, frappe, macchiato, mocha, or black
         ```
 
     <!-- x-release-please-end -->
